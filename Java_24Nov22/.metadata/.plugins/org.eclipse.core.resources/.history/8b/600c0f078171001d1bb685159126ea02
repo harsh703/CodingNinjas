@@ -1,0 +1,35 @@
+package base1;
+
+import java.util.Scanner;
+
+public class Trial {
+
+	public static void main(String[] args) {
+//		Scanner s = new Scanner(System.in);
+//		int a = s.nextInt();
+//		String str = s.next();
+//		System.out.print(a);
+//		System.out.println(str);
+		int basic,allow;
+		char grade;
+		Scanner s = new Scanner(System.in);
+		
+		basic = s.nextInt();
+		grade = s.next().charAt(0);
+
+		switch (grade){
+			case 'A' :
+				allow = 1700;
+			case 'B' :
+				allow = 1500;
+			default :
+				allow = 1300;
+		}
+		System.out.print((int)(basic+ (0.2 * basic) + (0.5 * basic) + allow - (0.11 * pf)));
+		
+	}
+}
+//2468
+//2468
+//
+//

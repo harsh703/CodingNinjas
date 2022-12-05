@@ -1,0 +1,10 @@
+package milestone1.lecture4.assignment;
+
+public class IsUpperCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package milestone1.lecture7.assignment;
+import java.util.*;
+
+public class AllPrime {
+	private boolean isPrime(int number) {
+		
+		if(number == 2 || number == 3)
+			return true;
+		
+		return true;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

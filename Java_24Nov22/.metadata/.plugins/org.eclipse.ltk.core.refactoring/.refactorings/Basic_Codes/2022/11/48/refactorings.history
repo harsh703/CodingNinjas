@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;base1.GSD&apos; to &apos;GCD&apos;&#x0D;&#x0A;- Original project: &apos;Basic_Codes&apos;&#x0D;&#x0A;- Original element: &apos;base1.GSD&apos;&#x0D;&#x0A;- Renamed element: &apos;base1.GCD&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;GSD&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;base1{GSD.java[GSD" matchStrategy="1" name="GCD" qualified="false" references="true" similarDeclarations="true" stamp="1669394598498" textual="false" version="1.0"/>
+</session>

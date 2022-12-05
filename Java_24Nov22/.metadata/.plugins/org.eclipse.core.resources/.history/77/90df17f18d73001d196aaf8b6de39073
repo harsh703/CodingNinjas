@@ -1,0 +1,10 @@
+package milestone1.lecture7.assignment;
+
+public class NumberSequence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package base1;
+import java.util.*;
+
+public class SampleInputOutput {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

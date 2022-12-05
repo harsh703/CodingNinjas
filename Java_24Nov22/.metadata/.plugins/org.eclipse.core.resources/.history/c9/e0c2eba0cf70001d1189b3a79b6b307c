@@ -1,0 +1,28 @@
+package base1;
+
+import java.util.Scanner;
+
+public class Trial {
+
+	public static void main(String[] args) {
+//		Scanner s = new Scanner(System.in);
+//		int a = s.nextInt();
+//		String str = s.next();
+//		System.out.print(a);
+//		System.out.println(str);
+		Scanner s = new Scanner(System.in);
+		int S, E, W;
+		S = s.nextInt();
+		E = s.nextInt();
+		W = s.nextInt();
+
+		while(S<=E){
+			System.out.println(S + " "+ (S-32)*(5.0/9));
+			S += W;
+		}
+	}
+}
+//2468
+//2468
+//
+//

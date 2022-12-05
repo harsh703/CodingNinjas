@@ -1,0 +1,10 @@
+package base1;
+
+public class SampleInputOutput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,45 @@
+package milestone1.lecture6.assignment;
+import java.util.*;
+
+public class Pattern4 {
+
+	
+	public static void main(String args[]) 
+    {
+        int n, col, row, space = 1;
+        Scanner s = new Scanner(System.in);
+        n = s.nextInt();
+        n = n/2 + 1;
+        space = n - 1;
+        for (row = 1; row <= n; row++) 
+        {
+            for (col = 1; col <= space; col++) 
+            {
+                System.out.print(" ");
+            }
+            space--;
+            for (col = 1; col <= 2 * row - 1; col++) 
+            {
+                System.out.print("*");                
+            }
+            System.out.println("");
+        }
+        space = 1;
+        for (row = 1; row <= n - 1; row++) 
+        {
+            for (col = 1; col <= space; col++) 
+            {
+                System.out.print(" ");
+            }
+            space++;
+            for (col = 1; col <= 2 * (n - row) - 1; col++) 
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+
+
+}

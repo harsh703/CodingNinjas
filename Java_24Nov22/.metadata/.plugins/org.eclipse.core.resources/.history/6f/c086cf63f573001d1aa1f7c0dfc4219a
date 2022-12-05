@@ -1,0 +1,13 @@
+package milestone1.lecture8.assignment;
+
+import java.util.Scanner;
+
+public class CheckFibonacci {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+
+	}
+
+}

@@ -1,0 +1,31 @@
+package base1;
+
+import java.util.Scanner;
+
+public class Trial {
+
+	public static void main(String[] args) {
+//		Scanner s = new Scanner(System.in);
+//		int a = s.nextInt();
+//		String str = s.next();
+//		System.out.print(a);
+//		System.out.println(str);
+		Scanner s = new Scanner(System.in)
+				long number = s.nextLong();
+				int rem, oddSum = 0, evenSum = 0;
+
+				while(number > 0){
+					rem = (int)number % 10;
+					number /= 10;
+					if (rem % 2 == 0)
+						evenSum += rem;
+					else
+						oddSum += rem;
+				}
+				System.out.println(evenSum +" "+ oddSum);
+	}
+}
+//2468
+//2468
+//
+//
